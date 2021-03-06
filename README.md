@@ -1,2 +1,3 @@
 # zorro_wasm
-Wasm version of Zorro.
+Wasm binding for Zorro.
+
