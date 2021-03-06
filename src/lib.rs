@@ -8,7 +8,12 @@ extern {
 
 #[wasm_bindgen]
 pub fn greet(name: &str) {
-    alert(&format!("Hello, {}!", name));
+    alert(&format!("Hello, {}!!!", name));
+}
+
+#[wasm_bindgen]
+pub fn zorro_decode(bytes: &[u8]) {
+    zorro::decode_pixels(bytes);
 }
 
 
