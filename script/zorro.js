@@ -17,6 +17,7 @@ var Zorro = function Zorro(){
   };
 };
 let zorro = new Zorro();
-zorro.readPng('./img/days.png', function(data) {
-  console.log("FOUND DATA:", data);
+zorro.readPng('./goathidden2b.png', function(data) {
+  document.getElementById("img_target").innerHTML = "<img src='./img/zorro.png'/>";
+  document.getElementById("target").innerHTML = data;
 });
